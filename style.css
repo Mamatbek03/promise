@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #d6b561;
+  font-size: 13px;
+}
+.card {
+  width: 300px;
+  height: 290px;
+  margin: 5px 10px;
+  border: 1px solid purple;
+}
+.card img {
+  height: 190px;
+  padding-top: 10px;
+}
+.card h4 {
+  font-size: 12px;
+}
+.card p {
+  font-size: 10px;
+}
